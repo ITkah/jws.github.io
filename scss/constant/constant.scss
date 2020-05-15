@@ -1,0 +1,74 @@
+html,
+body {
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    background: #eeeeee;
+}
+
+.container {
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+    margin: 0;
+}
+
+.padding {
+    padding: 0 45px;
+    @media (max-width: 990px) {
+        padding: 0 20px;
+    }
+    @media (max-width: 576px) {
+        padding: 0 15px;
+    }
+}
+
+.margin {
+    margin-bottom: 40px;
+    @media (max-width: 990px) {
+        margin-bottom: 30px;
+    }
+}
+
+button,
+input,
+textarea,
+a {
+    outline: none;
+}
+
+textarea {
+    resize: none;
+}
+
+main {
+    min-height: calc(100vh - 80px);
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.slick-slide {
+    outline: none;
+}
+
+main {
+    margin-top: 40px;
+}

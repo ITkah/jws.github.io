@@ -1,0 +1,27 @@
+.title-xl {
+    font: 500 1.4rem 'Roboto', sans-serif;
+    color: #000;
+    position: relative;
+    margin-bottom: 20px;
+    @media (max-width: 990px) {
+        font-size: 1.25rem;
+    }
+}
+
+
+.title-sm {
+    font: 400 1.125rem 'Roboto', sans-serif;
+    color: #9b9895;
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.text-simple {
+    color: #000;
+    font: 400 1rem/26px 'Roboto', sans-serif;
+    margin-bottom: 15px;
+    @media (max-width: 990px) {
+        font-size: .9rem;
+        line-height: 24px;
+    }
+}
