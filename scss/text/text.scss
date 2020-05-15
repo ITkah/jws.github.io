@@ -1,8 +1,9 @@
 .title-xl {
-    font: 500 1.4rem 'Roboto', sans-serif;
-    color: #000;
+    font: 500 1.5rem 'Roboto', sans-serif;
+    color: #19194a;
     position: relative;
     margin-bottom: 20px;
+    color: #19194a;
     @media (max-width: 990px) {
         font-size: 1.25rem;
     }
@@ -17,8 +18,8 @@
 }
 
 .text-simple {
-    color: #000;
-    font: 400 1rem/26px 'Roboto', sans-serif;
+    color: #19194a;
+    font: 400 .95em/25px 'Roboto', sans-serif;
     margin-bottom: 15px;
     @media (max-width: 990px) {
         font-size: .9rem;

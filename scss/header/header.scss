@@ -65,7 +65,7 @@ header {
                     transition: .3s;
                     color: #fff;
                     position: relative;
-                    font: 500 1rem 'Roboto', sans-serif;
+                    font: 400 1rem 'Roboto', sans-serif;
                     padding: 20px;
                     display: block;
                     &:hover {
@@ -96,7 +96,7 @@ header {
                         a {
                             padding: 10px;
                             font-size: .95rem;
-                            background: #1a9748;
+                            background: #115e2d;
                             @media (max-width: 990px) {
                                 background: transparent;
                                 padding: 0;

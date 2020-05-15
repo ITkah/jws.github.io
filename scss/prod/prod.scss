@@ -123,11 +123,13 @@
         background: #fff;
         padding: 15px;
         border: 0.5px solid #9b9895;
+        max-height: 420px;
         .contact-title {
             font: 400 1.35rem 'Roboto', sans-serif;
             color: #9b9895;
             font-style: italic;
             margin-bottom: 20px;
+            min-height: auto;
         }
         form {
             display: grid;
